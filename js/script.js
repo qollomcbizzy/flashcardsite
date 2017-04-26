@@ -9,4 +9,9 @@ $("#listoperators").click(function(){
   $(".operators").show();
   $(".operators").hide();
 });
+$("#listcomment").click(function(){
+  $(".comments").removeClass();
+  $(".comments").show();
+  $(".comments").hide();
+});
 });
