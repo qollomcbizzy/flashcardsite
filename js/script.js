@@ -1,6 +1,12 @@
 jQuery(document).ready(function(){
 $("#listjavascript").click(function()
 {
- $("#javascript").show();
+  $(".javascript").removeClass();
+ $(".javascript").show();
+});
+$("#listoperators").click(function(){
+  $(".operators").removeClass();
+  $(".operators").show();
+  $(".operators").hide();
 });
 });
