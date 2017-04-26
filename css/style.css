@@ -33,3 +33,10 @@ cursor: pointer;
 #likepagedivider{
   margin-top: 2%;
 }
+#javascript{
+display: none;
+}
+p{
+  font-size: 20px;
+  font-weight: lighter;
+}
