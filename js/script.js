@@ -2,21 +2,15 @@ jQuery(document).ready(function(){
 $("#listjavascript").click(function()
 {
   $(".javascript").removeClass();
- $(".javascript").show();
+ $(".javascript").slideUp("slow");
 });
 $("#listoperators").click(function(){
-  $(".operators").removeClass();
-  $(".operators").show();
-  $(".operators").hide();
+  $(".operators").slideUp("slow");
 });
 $("#listcomment").click(function(){
-  $(".comments").removeClass();
-  $(".comments").show();
-  $(".comments").hide();
+  $(".comments").slideUp("slow");
 });
 $("#listvariables").click(function(){
-  $(".variables").removeClass();
-  $(".variables").show();
-  $(".variables").hide();
+  $(".variables").slideUp("slow");
 });
 });

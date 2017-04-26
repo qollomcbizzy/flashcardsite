@@ -36,19 +36,19 @@ cursor: pointer;
   margin-top: 2%;
 }
 .operators{
-display: none;
+display:;
 }
 p{
   font-size: 20px;
   font-weight: lighter;
 }
 .comments{
-  display: none;
+  display:;
 }
 b{
   display: block;
   font-size: 15px;
 }
 .variables{
-  display:none;
+  display:;
 }
