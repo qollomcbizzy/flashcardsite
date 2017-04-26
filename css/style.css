@@ -3,10 +3,32 @@ h1{
 }
 h2{
   color: blue;
+  text-align: center;
 }
 .topiccolumn{
-  border-right: 2px grey;
+  ;
 }
 .myheader{
   background-color: rgb(58, 237, 204);
+}
+#pagedivider{
+  border-top: 2px solid black;
+  margin-top: 2%;
+}
+#mypage{
+  height: 100%;
+}
+#topicdivider{
+  margin-top: 2%;
+  border-right: 2px solid grey;
+}
+#contentdivider{
+  margin-top: 2%;
+  border-right: 2px solid grey;
+}
+.#topiclist{
+
+}
+#likepagedivider{
+  margin-top: 2%;
 }
