@@ -14,4 +14,9 @@ $("#listcomment").click(function(){
   $(".comments").show();
   $(".comments").hide();
 });
+$("#listvariables").click(function(){
+  $(".variables").removeClass();
+  $(".variables").show();
+  $(".variables").hide();
+});
 });

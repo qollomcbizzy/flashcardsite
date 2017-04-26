@@ -20,11 +20,13 @@ h2{
 }
 #topicdivider{
   margin-top: 2%;
-  border-right: 2px solid grey;
 }
 #contentdivider{
   margin-top: 2%;
   border-right: 2px solid grey;
+  border-left: 2px solid grey;
+  padding-left: 3%;
+  padding-right: 2%;
 }
 #topiclist:hover{
 text-decoration: underline;
@@ -42,4 +44,11 @@ p{
 }
 .comments{
   display: none;
+}
+b{
+  display: block;
+  font-size: 15px;
+}
+.variables{
+  display:none;
 }
