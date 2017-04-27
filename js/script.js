@@ -13,4 +13,10 @@ $("#listcomment").click(function(){
 $("#listvariables").click(function(){
   $(".variables").slideUp("slow");
 });
+$("#facebook").mouseover(function(){
+$("#facebook").alert("like");
+$(document).ready(function(){
+
+});
+});
 });
