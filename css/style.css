@@ -52,3 +52,12 @@ b{
 .variables{
   display:;
 }
+#rate1{
+  background-color: black;
+}
+#rating-box{
+  height: 80px;
+  width: 150px;
+  margin-left: 15%;
+  border: 2px solid grey;
+}

@@ -13,10 +13,24 @@ $("#listcomment").click(function(){
 $("#listvariables").click(function(){
   $(".variables").slideUp("slow");
 });
-$("#facebook").mouseover(function(){
-$("#facebook").alert("like");
-$(document).ready(function(){
-
+$("#facebook").click(function(){
+alert("liked");
 });
+$("#google").click(function(){
+alert("liked");
+});
+$("#twitter").click(function(){
+alert("liked");
+});
+$("img#rate1").click(function(){
+  $("p#ratewebpage").append("1");
+});
+$("img#rate2").click(function(){
+  $("p#ratewebpage").append("2");
+  $(this).remove();
+});
+$("img#rate3").click(function(){
+  $("p#ratewebpage").append("3");
+  $(this).remove();
 });
 });
