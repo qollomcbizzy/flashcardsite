@@ -22,15 +22,13 @@ alert("liked");
 $("#twitter").click(function(){
 alert("liked");
 });
-$("img#rate1").click(function(){
+ $("img#rate1").click(function(){
   $("p#ratewebpage").append("1");
 });
 $("img#rate2").click(function(){
   $("p#ratewebpage").append("2");
-  $(this).remove();
 });
 $("img#rate3").click(function(){
   $("p#ratewebpage").append("3");
-  $(this).remove();
 });
 });
