@@ -61,3 +61,12 @@ b{
   margin-left: 15%;
   border: 2px solid grey;
 }
+#myfooter{
+  clear: both;
+  background-color:rgb(40, 122, 143);
+  height:80px;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 30px;
+  color: white;
+}
