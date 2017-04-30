@@ -20,7 +20,7 @@ $("#google").click(function(){
 alert("liked");
 });
 $("#twitter").click(function(){
-alert("liked");
+ $("#reply").show();
 });
  $("img#rate1").click(function(){
   $("p#ratewebpage").append("1");

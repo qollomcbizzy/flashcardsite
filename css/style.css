@@ -56,8 +56,8 @@ b{
   background-color: black;
 }
 #rating-box{
-  height: 80px;
-  width: 150px;
+  height: 60px;
+  width: 120px;
   margin-left: 15%;
   border: 2px solid grey;
 }
@@ -69,4 +69,7 @@ b{
   padding-top: 30px;
   margin-top: 30px;
   color: white;
+}
+#reply{
+  display: none;
 }
